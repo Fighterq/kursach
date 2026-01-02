@@ -1,2 +1,18 @@
-# Только стандартные библиотеки Python
-# Ничего устанавливать не нужно!
+# Основные зависимости
+flask==2.3.3
+flask-cors==4.0.0
+flask-jwt-extended==4.5.2
+psycopg2-binary==2.9.7
+python-dotenv==1.0.0
+bcrypt==4.1.2
+pyjwt==2.8.0
+
+# Зависимости для разработки
+pytest==7.4.3
+black==23.9.1
+flake8==6.1.0
+python-dotenv==1.0.0
+
+# Альтернативные (если не работают основные)
+# sqlite3 - встроен в Python
+# hashlib - встроен в Python
