@@ -16,16 +16,8 @@ setup(
         "bcrypt>=4.1.2",
     ],
     extras_require={
-        "dev": [
-            "pytest>=7.4.3",
-            "black>=23.9.1",
-            "flake8>=6.1.0",
-            "pytest-cov>=4.1.0",
-        ],
-        "prod": [
-            "gunicorn>=20.1.0",
-            "whitenoise>=6.5.0",
-        ]
+        "dev": ["pytest>=7.4.3", "black>=23.9.1", "flake8>=6.1.0", "pytest-cov>=4.1.0"],
+        "prod": ["gunicorn>=20.1.0", "whitenoise>=6.5.0"],
     },
     entry_points={
         "console_scripts": [
